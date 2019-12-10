@@ -36,3 +36,5 @@ sysinfo.txt
 *.unitypackage
 ProjectSettings/ProjectVersion.txt
 ProjectSettings/ProjectVersion.txt
+Packages/manifest.json
+ProjectSettings/ProjectVersion.txt
