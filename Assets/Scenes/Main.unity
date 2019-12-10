@@ -119,6 +119,9 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
+<<<<<<< HEAD
+  m_NavMeshData: {fileID: 23800000, guid: 38dbf910b401b0844bb9ba3d3fea5927, type: 2}
+=======
   m_NavMeshData: {fileID: 23800000, guid: 6a5d92c7f74daea47a3018bf84bef044, type: 2}
 --- !u!1 &30974678
 GameObject:
@@ -557,6 +560,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750501331}
   m_CullTransparentMesh: 0
+>>>>>>> d5f921440475e25c3c926765154506c735796b8f
 --- !u!1 &911951576
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,7 +803,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: AK47
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: -927199367670048503, guid: 9e9c83902de8ccd468d54c7cb49a18e4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2502203975881118265, guid: 9e9c83902de8ccd468d54c7cb49a18e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9e9c83902de8ccd468d54c7cb49a18e4,
+=======
     - target: {fileID: -4216859302048453862, guid: dd986c5115816e44c8560e7c4f5035f0,
+>>>>>>> d5f921440475e25c3c926765154506c735796b8f
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00038351398
