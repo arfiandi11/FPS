@@ -36,5 +36,16 @@ sysinfo.txt
 *.unitypackage
 ProjectSettings/ProjectVersion.txt
 ProjectSettings/ProjectVersion.txt
+<<<<<<< HEAD
 Packages/manifest.json
 ProjectSettings/ProjectVersion.txt
+=======
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
+>>>>>>> d5f921440475e25c3c926765154506c735796b8f
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
