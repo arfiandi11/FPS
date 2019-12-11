@@ -170,11 +170,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -276,12 +278,14 @@ MonoBehaviour:
   m_HandleRect: {fileID: 690906140}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!82 &381867966 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 2383386577453707927, guid: c68280c3d2991e9488b2945dd8bfe082,
@@ -355,6 +359,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -428,6 +434,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
@@ -593,12 +601,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4425986241792016686, guid: d71cf369d2c233c4eae6b60a3eddf292,
-        type: 3}
-      propertyPath: EnemyAudio
-      value: 
-      objectReference: {fileID: 5466542114556255339, guid: d71cf369d2c233c4eae6b60a3eddf292,
-        type: 3}
     - target: {fileID: 4230719737814743109, guid: d71cf369d2c233c4eae6b60a3eddf292,
         type: 3}
       propertyPath: m_Name
@@ -659,6 +661,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4425986241792016686, guid: d71cf369d2c233c4eae6b60a3eddf292,
+        type: 3}
+      propertyPath: EnemyAudio
+      value: 
+      objectReference: {fileID: 5466542114556255339, guid: d71cf369d2c233c4eae6b60a3eddf292,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d71cf369d2c233c4eae6b60a3eddf292, type: 3}
 --- !u!1001 &973603195
@@ -764,8 +772,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 245.39, y: 0}
-  m_SizeDelta: {x: 500, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066811222
 MonoBehaviour:
@@ -780,11 +788,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.022472408, b: 0.022472408, a: 1}
+  m_Color: {r: 0.9528302, g: 0.05842829, b: 0.05842829, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1158,6 +1168,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1297,6 +1309,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 65
@@ -1722,51 +1736,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 347786263118903161, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: TPS
-      value: 
-      objectReference: {fileID: 1863711401}
-    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: healthBar
-      value: 
-      objectReference: {fileID: 360846984}
-    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: TPSCamera
-      value: 
-      objectReference: {fileID: 1863711406}
-    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: AK47Shot
-      value: 
-      objectReference: {fileID: 537262602}
-    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: ShotgunShot
-      value: 
-      objectReference: {fileID: 381867966}
-    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: WeaponReload
-      value: 
-      objectReference: {fileID: 1893723035}
-    - target: {fileID: 1229451076322966196, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383386577453707927, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 0b5a4a58690f7d949af616ee33ec2241, type: 3}
-    - target: {fileID: 2383386577453707927, guid: c68280c3d2991e9488b2945dd8bfe082,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8087271472293947488, guid: c68280c3d2991e9488b2945dd8bfe082,
         type: 3}
       propertyPath: m_Name
@@ -1871,6 +1840,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 360846984}
+    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: TPSCamera
+      value: 
+      objectReference: {fileID: 1863711406}
+    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: AK47Shot
+      value: 
+      objectReference: {fileID: 537262602}
+    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: ShotgunShot
+      value: 
+      objectReference: {fileID: 381867966}
+    - target: {fileID: 7412835840333414256, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: WeaponReload
+      value: 
+      objectReference: {fileID: 1893723035}
+    - target: {fileID: 347786263118903161, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: TPS
+      value: 
+      objectReference: {fileID: 1863711401}
+    - target: {fileID: 2383386577453707927, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b5a4a58690f7d949af616ee33ec2241, type: 3}
+    - target: {fileID: 2383386577453707927, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1229451076322966196, guid: c68280c3d2991e9488b2945dd8bfe082,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c68280c3d2991e9488b2945dd8bfe082, type: 3}
