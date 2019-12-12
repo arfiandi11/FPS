@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 
 public class MenuChoose : MonoBehaviour {
+	
 
     // pindah scene ke menu
     public void MenuScene() {
@@ -19,5 +20,17 @@ public class MenuChoose : MonoBehaviour {
     public void KeluarScene() {
         Application.Quit();
         Debug.Log("Keluar Game");
+    }
+	
+	// masuk dari game
+    public void MainScene() {
+        SceneManager.LoadScene("Main10");
+		UIManager.score=0;
+        Debug.Log("Main Game");
+    }
+	// resume dari game
+    public void ResumeScene() {
+        SceneManager.LoadScene("Main10");
+        Debug.Log("Main Game");
     }
 }
