@@ -610,7 +610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0050f2a0bf4131445b6fcbfa5671328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolusiDropdown: {fileID: 1095021612}
 --- !u!1 &126723251
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,7 +1535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0050f2a0bf4131445b6fcbfa5671328b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolusiDropdown: {fileID: 0}
 --- !u!114 &632805683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2093,7 +2091,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 409a3b014a8c5424e97d8260f95339bd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d134ea8a52a5c5346937101a845746c9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

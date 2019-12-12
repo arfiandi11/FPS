@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Loading : MonoBehaviour {
+public class MenuLoading : MonoBehaviour {
 
 	// waktu delay untuk load scene
 	[SerializeField] private float delayLoading = 3f;
@@ -15,7 +15,7 @@ public class Loading : MonoBehaviour {
 		timeElapsed += Time.deltaTime;
 		
 		if (timeElapsed > delayLoading) {
-			SceneManager.LoadScene(namaScene);
+			SceneManager.LoadScene("Main10");
 		}
 	}
 }
