@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Setting : MonoBehaviour {
+public class MenuSetting : MonoBehaviour {
 
     // teks representasi untuk persen
     Text persenTeks;
@@ -19,7 +19,7 @@ public class Setting : MonoBehaviour {
 
         resolutions = Screen.resolutions;
 
-        resolusiDropdown.ClearOptions();
+        // resolusiDropdown.ClearOptions();
 
         List<string> options = new List<string>();
 
@@ -33,9 +33,9 @@ public class Setting : MonoBehaviour {
                     currentResolutionIndex = i;
                 }
         }
-        resolusiDropdown.AddOptions(options);
-        resolusiDropdown.value = currentResolutionIndex;
-        resolusiDropdown.RefreshShownValue();
+        // resolusiDropdown.AddOptions(options);
+        // resolusiDropdown.value = currentResolutionIndex;
+        // resolusiDropdown.RefreshShownValue();
     }
 
     // toggle untuk fullscreen
