@@ -33,7 +33,7 @@ public class PlayerAnimation : MonoBehaviour
 
     void Movement() {
     if (controller.isGrounded) {
-        if (Input.GetKey(KeyCode.W)) {
+        if (Input.GetKey(KeyCode.T)) {
             if(anim.GetBool("shot") == true) {
                 return;
             }
@@ -45,7 +45,7 @@ public class PlayerAnimation : MonoBehaviour
                 moveDir = transform.TransformDirection(moveDir);
             }
         }
-        if (Input.GetKeyUp(KeyCode.W)) {
+        if (Input.GetKeyUp(KeyCode.T)) {
             anim.SetBool("run", false);
             anim.SetInteger("condition", 0);
             moveDir = new Vector3 (0, 0, 0);
@@ -82,22 +82,22 @@ void Attack() {
 }
 
 void SwapAk47() {
-    if (Input.GetKey(KeyCode.Alpha1)) {
+    if (Input.GetKey(KeyCode.Alpha5)) {
         anim.SetBool("switchWeapon", true);
         anim.SetInteger("condition", 3);
     }
-    else if (Input.GetKeyUp(KeyCode.Alpha1)) {
+    else if (Input.GetKeyUp(KeyCode.Alpha5)) {
         anim.SetBool("switchWeapon", false);
         anim.SetInteger("condition", 0);
     }
 }
  
 void SwapShotgun() {
-    if (Input.GetKey(KeyCode.Alpha2)) {
+    if (Input.GetKey(KeyCode.Alpha6)) {
         anim.SetBool("switchWeapon", true);
         anim.SetInteger("condition", 3);    
     }
-    else if (Input.GetKeyUp(KeyCode.Alpha2)) {
+    else if (Input.GetKeyUp(KeyCode.Alpha6)) {
         anim.SetBool("switchWeapon", false);
         anim.SetInteger("condition", 0);
     }
