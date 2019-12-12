@@ -16,12 +16,12 @@ public class AIEnemyController : MonoBehaviour {
   
    // Start is called before the first frame update
    void Start () {
-       anim = GetComponent<Animator>();
-       agent = GetComponentInChildren<NavMeshAgent>();
-       target = GameObject.FindGameObjectWithTag("Player");
-       agent.speed = speed;
-       agent.updateRotation = true;
-       agent.updatePosition = true;
+            anim = GetComponent<Animator>();
+            agent = GetComponentInChildren<NavMeshAgent>();
+            target = GameObject.FindGameObjectWithTag("Player");
+            agent.speed = speed;
+            agent.updateRotation = true;
+            agent.updatePosition = true;
    }
     
     // Update is called once per frame
@@ -34,7 +34,7 @@ public class AIEnemyController : MonoBehaviour {
            Destroy(gameObject);
        }
    }
-  
+
    void TakeDamage(int damage) {
        EnemyHealth -= damage;
        if(EnemyHealth <= 0) {
