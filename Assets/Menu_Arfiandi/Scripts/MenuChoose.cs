@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Scene : MonoBehaviour {
+public class MenuChoose : MonoBehaviour {
 
     // pindah scene ke menu
     public void MenuScene() {

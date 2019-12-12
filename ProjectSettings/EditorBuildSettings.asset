@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menu_Arfiandi/Scene/Gameover.unity
+    guid: 29e880d7a86345045b88bf7e775a02cd
+  - enabled: 1
+    path: Assets/Menu_Arfiandi/Scene/Menu.unity
+    guid: e0a5ca801407a65408b50f9249927980
   m_configObjects: {}

@@ -52,7 +52,7 @@ public class WeaponController : MonoBehaviour
 		healthBar.value = health;
 		if (health <= 0) {
 			Debug.Log("Player Mati");
-			SceneManager.LoadScene("Game Over");
+			SceneManager.LoadScene("Gameover");
 			AIEnemyController.GiveDamage = false;
 			Restart();
 		}
