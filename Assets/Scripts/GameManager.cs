@@ -38,12 +38,12 @@ public class GameManager : MonoBehaviour {
 		 * of the GetString() function
 		 */
 		jump = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("jumpKey", "Space"));
-		forward = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("forwardKey", "W"));
-		backward = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("backwardKey", "S"));
-		left = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "A"));
-		right = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "D"));
-		ak47 = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Alpha1", "1"));
-		shotgun = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Alpha2", "2"));
+		forward = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("forwardKey", "T"));
+		backward = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("backwardKey", "G"));
+		left = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("leftKey", "F"));
+		right = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("rightKey", "H"));
+		ak47 = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Alpha1", "5"));
+		shotgun = (KeyCode) System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("Alpha2", "6"));
 
 
 	}
